@@ -1,4 +1,6 @@
 .chat-container{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     height: calc(100vh - 130px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -17,4 +19,8 @@
 .search-icon {
     display: flex;
   }
+.ai-res{
+    display: flex;
+    flex-wrap: wrap;
+}
   
